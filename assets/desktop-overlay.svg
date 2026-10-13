@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">桌面点不动：一个空白窗口挡住了操作</title>
+  <desc id="desc">左侧展示空白窗口覆盖中部、两侧仍能框选。右侧展示关闭目标窗口后恢复。底部展示微信输入法组件、WebView2 和空白窗口的进程关系。此图为概念示意。</desc>
+  <defs>
+    <style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#193044}.title{font-size:46px;font-weight:700}.sub{font-size:25px;fill:#536778}.label{font-size:27px;font-weight:700}.body{font-size:23px}.small{font-size:19px;fill:#536778}.mono{font-family:Consolas,monospace;font-size:25px}</style>
+    <g id="folder"><path d="M0 7h22l7 8h29v38H0z" fill="#edbc56"/><path d="M0 20h58v33H0z" fill="#ffd778"/></g>
+    <g id="icons"><use href="#folder" x="0" y="0"/><use href="#folder" x="90" y="0"/><use href="#folder" x="180" y="0"/><use href="#folder" x="0" y="92"/><use href="#folder" x="90" y="92"/><use href="#folder" x="180" y="92"/></g>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#536778"/></marker>
+  </defs>
+  <rect width="1400" height="900" fill="#f6f8fb"/>
+  <text x="48" y="74" class="small">WINDOWS 故障案例 / 微信输入法</text>
+  <text x="48" y="137" class="title">桌面点不动：一个空白窗口挡住了操作</text>
+  <text x="48" y="180" class="sub">看得见图标，但按下鼠标时，输入可能先落到上面的窗口。</text>
+  <rect x="48" y="221" width="630" height="390" rx="18" fill="white" stroke="#d7dfe8"/>
+  <rect x="722" y="221" width="630" height="390" rx="18" fill="white" stroke="#d7dfe8"/>
+  <circle cx="83" cy="260" r="8" fill="#d65a59"/><text x="103" y="270" class="label">处理前：中间按不动</text>
+  <circle cx="757" cy="260" r="8" fill="#188163"/><text x="777" y="270" class="label">处理后：框选、双击恢复</text>
+  <rect x="70" y="293" width="586" height="235" rx="8" fill="#eaf0f7"/>
+  <rect x="744" y="293" width="586" height="235" rx="8" fill="#eaf3f0"/>
+  <use href="#icons" x="110" y="320"/><use href="#icons" x="784" y="320"/>
+  <rect x="80" y="294" width="493" height="234" fill="#d85858" fill-opacity=".19" stroke="#d85858" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="164" y="376" width="365" height="59" rx="10" fill="#fff5f3" stroke="#e7aaa4"/>
+  <text x="346" y="414" text-anchor="middle" class="label" style="fill:#a33835">空白窗口覆盖这里</text>
+  <rect x="776" y="311" width="265" height="199" fill="#41a48a" fill-opacity=".1" stroke="#188163" stroke-width="2" stroke-dasharray="7 5"/>
+  <path d="M1094 394l0 47 12-11 10 21 12-6-11-21 17-1z" fill="#193044" stroke="white" stroke-width="3"/>
+  <rect x="70" y="532" width="586" height="27" rx="4" fill="#d9e2ee"/>
+  <rect x="744" y="532" width="586" height="27" rx="4" fill="#d9e2ee"/>
+  <text x="363" y="590" text-anchor="middle" class="body">两侧空隙仍能开始框选</text>
+  <text x="1037" y="590" text-anchor="middle" class="body">关闭已确认归属的 WebView2</text>
+  <text x="48" y="672" class="label">现场查到的来源</text>
+  <rect x="48" y="697" width="374" height="107" rx="12" fill="white" stroke="#d7dfe8"/>
+  <text x="72" y="736" class="body">微信输入法组件</text><text x="72" y="777" class="mono">wetype_update.exe</text>
+  <path d="M440 751h44" fill="none" stroke="#536778" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="508" y="697" width="374" height="107" rx="12" fill="white" stroke="#d7dfe8"/>
+  <text x="532" y="736" class="body">内嵌网页运行进程</text><text x="532" y="777" class="mono">msedgewebview2.exe</text>
+  <path d="M900 751h44" fill="none" stroke="#536778" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="968" y="697" width="384" height="107" rx="12" fill="#fff0ed" stroke="#e7aaa4"/>
+  <text x="992" y="736" class="body">无明显内容的窗口</text><text x="992" y="777" class="mono">about:blank</text>
+  <text x="48" y="865" class="small">本机案例 · 2026-10-13 · 概念示意，非真实截图，不按实际窗口比例绘制</text>
+</svg>

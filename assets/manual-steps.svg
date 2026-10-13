@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1040" viewBox="0 0 1400 1040" role="img" aria-labelledby="title desc">
+  <title id="title">不用 AI：通过任务管理器处理</title>
+  <desc id="desc">先保存工作。打开任务管理器，在详细信息中显示命令行，查找 msedgewebview2.exe 中归属 wetype_update.exe 的目标，核对数据目录，只结束该项，再验证桌面。找不到或分不清就不操作。</desc>
+  <defs><style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#193044}.title{font-size:46px;font-weight:700}.sub{font-size:25px;fill:#536778}.label{font-size:28px;font-weight:700}.body{font-size:24px}.small{font-size:20px;fill:#536778}.mono{font-family:Consolas,monospace;font-size:25px}.num{font-size:26px;font-weight:700;fill:white}</style></defs>
+  <rect width="1400" height="1040" fill="#f6f8fb"/>
+  <text x="48" y="74" class="small">手动处理 / 先确认归属，再结束进程</text>
+  <text x="48" y="137" class="title">不用 AI，也能通过任务管理器处理</text>
+  <text x="48" y="180" class="sub">先保存工作。以下为操作示意，具体布局随 Windows 版本而变化。</text>
+  <rect x="48" y="218" width="630" height="210" rx="16" fill="white" stroke="#d7dfe8"/>
+  <rect x="722" y="218" width="630" height="210" rx="16" fill="white" stroke="#d7dfe8"/>
+  <circle cx="90" cy="263" r="21" fill="#236ba1"/><text x="90" y="272" text-anchor="middle" class="num">1</text>
+  <text x="127" y="273" class="label">打开任务管理器</text>
+  <rect x="86" y="306" width="550" height="63" rx="9" fill="#edf4fa"/>
+  <text x="361" y="348" text-anchor="middle" class="mono">Ctrl + Shift + Esc</text>
+  <text x="86" y="404" class="small">进入“详细信息”页面</text>
+  <circle cx="764" cy="263" r="21" fill="#236ba1"/><text x="764" y="272" text-anchor="middle" class="num">2</text>
+  <text x="801" y="273" class="label">显示“命令行”列</text>
+  <text x="760" y="324" class="body">右键表头 → 选择列</text>
+  <rect x="760" y="351" width="28" height="28" rx="4" fill="#236ba1"/><path d="M766 365l6 6 11-13" stroke="white" stroke-width="3" fill="none"/>
+  <text x="804" y="375" class="body">命令行</text>
+  <text x="760" y="407" class="small">拉宽这一列，查看完整参数</text>
+  <rect x="48" y="453" width="1304" height="315" rx="16" fill="white" stroke="#d7dfe8"/>
+  <circle cx="90" cy="500" r="21" fill="#236ba1"/><text x="90" y="509" text-anchor="middle" class="num">3</text>
+  <text x="127" y="510" class="label">找到 WebView2，再核对微信输入法归属</text>
+  <rect x="86" y="536" width="1228" height="39" fill="#eaf0f7"/>
+  <text x="103" y="564" class="small">进程名称</text><text x="464" y="564" class="small">命令行中包含</text>
+  <rect x="86" y="578" width="1228" height="65" fill="#e6f4ee"/>
+  <text x="103" y="620" class="mono">msedgewebview2.exe</text>
+  <text x="464" y="620" class="mono" style="fill:#14634e">--webview-exe-name=wetype_update.exe</text>
+  <text x="86" y="682" class="body">再核对数据目录包含：</text>
+  <text x="86" y="722" class="mono">flutter_webview_windows\wetype_update\EBWebView</text>
+  <rect x="48" y="793" width="1304" height="142" rx="16" fill="#e6f4ee" stroke="#a6d2c0"/>
+  <circle cx="90" cy="843" r="21" fill="#188163"/><text x="90" y="852" text-anchor="middle" class="num">4</text>
+  <text x="127" y="853" class="label">确认后，只对这一个目标执行“结束任务”</text>
+  <text x="86" y="901" class="body">回到桌面验证：中间开始框选  /  双击中间图标  /  操作任务栏</text>
+  <text x="48" y="985" class="body" style="fill:#a33835">找不到或分不清，就先不要结束。不要批量关闭所有 WebView2。</text>
+  <text x="48" y="1020" class="small">原创操作示意图，非任务管理器截图。完整核对步骤见 README。</text>
+</svg>
